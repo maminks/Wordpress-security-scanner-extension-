@@ -1,2 +1,2 @@
-# Wordpress-security-scanner-extension-
+# Wordpress security scanner extension
 wordpress security scanner browser extension 
