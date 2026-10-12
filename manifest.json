@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "WP Security Scanner",
+  "version": "3.0",
+  "description": "Aggressive WordPress reconnaissance: plugin/theme/CVE detection, user enumeration (1-50), deep XML-RPC analysis, directory listings, exposed file discovery (archives, DB dumps, logs, configs), REST API routes, security headers",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d4e8f2a1-6b3c-4f9e-9a2d-8c5b1e7f3a90}",
+      "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "120.0"
+    }
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon/icon-blue-16.png",
+      "32": "icon/icon-blue-32.png",
+      "48": "icon/icon-blue-48.png",
+      "128": "icon/icon-blue.png"
+    }
+  },
+  "icons": {
+    "16": "icon/icon-blue-16.png",
+    "32": "icon/icon-blue-32.png",
+    "48": "icon/icon-blue-48.png",
+    "128": "icon/icon-blue.png"
+  }
+}
